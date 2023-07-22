@@ -18,7 +18,7 @@ export class AppComponent {
     if(this.isDisplay){
       return this.model.items;
     }
-    return this.model.items.filter(item => !item.action);
+    return this.model.items.filter((item) => !item.action);
   }
 
   addItem(value: string) {
